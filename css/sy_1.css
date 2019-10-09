@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#quanbu{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+p{
+font-size: 18px;
+    color: #7ab6f9;
+}
+div{
+    margin-top: 50px;
+}
+td{
+    font-size: 13px;
+    margin-left: 43px;
+}
+tr{
+    margin-top: 30px;
+}
+.yi{
+
+    float: right;
+}
+.er{
+    float: left;
+}
+.si{
+    width: 50px;
+}
+.wu{
+    width: 50px;
+    margin-left: 126px;
+}
+.liu{
+    margin-left: 125px;
+}

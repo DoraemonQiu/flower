@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#z_main{
+
+    height: 700px;
+    background-image: url("../images/z-bg1.jpg");
+}
+#z_myTabs{
+    padding-left: 69px;
+    padding-right: 69px;
+    height: 540px;
+    padding-top: 50px;
+}
+.z_myTabs nav{
+    margin-top: 100px;
+}
+.z_myTabs nav li{
+    color: white;
+}
+#z_myTabs .tab-content{
+    background-color: white;
+}
+#z_main .tab-content{
+    width: 100%;
+    height: 100%;
+    background-color:white ;
+    opacity: 0.8;
+}
+#z_main .tab-content img{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+#z_main .nav-tabs>li.active>a{
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: default;
+    background-color: #f2a6a8;
+    border: none;
+}
+#z_main .nav-tabs>li>a{
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: default;
+    background-color: #7ab6f9;
+    border: none;
+}
+#z_main .nav-tabs>li>a:hover {
+    background-color: #f2a6a8;
+    font-size: 15px;
+    cursor: default;
+    border: none;
+}
+#z_main .nav-tabs>li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#z_myTabs .tab-content p{
+    font-size: 13px;
+}
+#z_myTabs .tab-content span{
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

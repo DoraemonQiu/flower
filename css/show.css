@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#z_main{
+
+    height: 700px;
+    background-image: url("../images/z-bg1.jpg");
+}
+#z_myTabs{
+    padding-left: 69px;
+    padding-right: 69px;
+    height: 540px;
+    padding-top: 50px;
+}
+.z_myTabs nav{
+    margin-top: 100px;
+}
+.z_myTabs nav li{
+    color: white;
+}
+#z_myTabs .tab-content{
+    background-color: white;
+}
+#z_main .tab-content{
+    width: 100%;
+    height: 100%;
+    background-color:white ;
+    opacity: 0.8;
+}
+#z_main .nav-tabs>li.active>a{
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: default;
+    background-color: #f2a6a8;
+    border: none;
+}
+#z_main .nav-tabs>li>a{
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: default;
+    background-color: #7ab6f9;
+    border: none;
+}
+#z_main .nav-tabs>li>a:hover {
+    background-color: #f2a6a8;
+    font-size: 15px;
+    cursor: default;
+    border: none;
+}
+#z_main .nav-tabs>li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.grid-panel:hover{
+   border: 3px solid #f2a6a8;
+}
+.price span{
+    color:orangered;
+}
+.product-title{
+    color: black;
+}
+.feature{
+    font-size: 12px;
+    display: block;
+    color: #ff6a00;
+}
+.attention{
+    border: 1px solid #d9d9d9;
+    font-size: 12px;
+
+    width: 80px;
+    padding: 4px 0;
+    text-align: center;
+    color: black;
+}
+.add-cart{
+    border: 1px solid #d9d9d9;
+    font-size: 12px;
+    display: inline-block;
+    width: 107px;
+    padding: 4px 0;
+    text-align: center;
+    color: black;
+}
+.attention:hover{
+    color: orangered;
+    background-color: #fff3eb;;
+}
+.add-cart:hover{
+    color: orangered;
+    background-color: #fff3eb;;
+}
+.tab-content .col-md-8{
+    margin-top: 55px;
+}
+.tab-content .col-md-4{
+    margin-top: 35px;
+}
+.product-title:hover{
+    color: orangered;
+}
+.add-cart{
+    margin-left: 15px;
+}
+
+
+
+

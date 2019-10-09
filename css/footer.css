@@ -1,0 +1,21 @@
+#bottom ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#bottom p{
+    color: #999;
+    font-size: 13px;
+}#bottom span{
+    color: #999;
+    font-size: 13px;
+}
+#bottom  a{
+    cursor: pointer;
+    color: #7ab6f9;
+}
+#bottom a:hover{
+    color: #e5949b;
+    text-decoration: none;
+}

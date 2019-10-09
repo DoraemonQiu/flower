@@ -1,0 +1,19 @@
+
+body{
+    padding-top: 104px;
+}
+
+#q_an{
+    background: #f60;
+    color: #fff;
+    margin-left: 2%;
+}
+.q_wei{
+    margin-left:80%;
+    margin-top: 75px;
+}
+.q_tu{
+    background: url("../images/shop.jpg") no-repeat;
+    height: 350px;
+    margin-top: 50px;
+}

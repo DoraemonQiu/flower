@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/zy_1.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="toubu">
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">鲜花礼品馆</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id="demo-navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">简述<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">花语</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">种类<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#meigui">玫瑰</a></li>
+                            <li><a href="#baihe">百合</a></li>
+                            <li><a href="#kang">康乃馨</a></li>
+                            <li><a href="#mantianxing">满天星</a></li>
+                            <li><a href="#yujingxiang">郁金香</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#about">关于</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
+<div id="lunpo">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/l1.jpg" alt="..." class="img-responsive">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/l2.jpg" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/l3.jpg" alt="...">
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+<div id="disan">
+    <div class="container" id="summar-container">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-circle" src="images/1.jpg" alt="玫瑰">
+            <h2>玫瑰</h2>
+            <p>玫瑰花语</p>
+            <p><a class="btn btn-default" href="#">点击购买</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="images/2.jpg" alt="百合">
+            <h2>百合</h2>
+            <p>百合花语</p>
+            <p><a class="btn btn-default" href="#">点击购买</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="images/3.jpg" alt="康乃馨">
+            <h2>康乃馨</h2>
+            <p>康乃馨花语</p>
+            <p><a class="btn btn-default" href="#">点击购买</a></p>
+        </div>
+    </div>
+    </div>
+    <hr class="divider">
+</div>
+<div id="disi">
+    <div class="container">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist" id="tab-list">
+            <li role="presentation" class="active"><a href="#meigui" aria-controls="home" role="tab" data-toggle="tab">玫瑰</a></li>
+            <li role="presentation"><a href="#baihe" aria-controls="profile" role="tab" data-toggle="tab">百合</a></li>
+            <li role="presentation"><a href="#kang" aria-controls="messages" role="tab" data-toggle="tab">康乃馨</a></li>
+            <li role="presentation"><a href="#mantianxing" aria-controls="settings" role="tab" data-toggle="tab">满天星</a></li>
+            <li role="presentation"><a href="#yujingxiang" aria-controls="settings" role="tab" data-toggle="tab">郁金香</a></li>
+        </ul>
+        <!--标签列表-->
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="meigui">
+                <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">玫瑰<span class="text-muted">爱情鲜花</span></h2>
+                        <p class="lead">
+                            玫瑰花语在古希腊神话中，玫瑰集爱与美于一身，既是美神的化身，又溶进了爱神的血液。在世界范围内，玫瑰是用来表达爱情的通用语言。每到情人节，玫瑰更是身价倍增，是恋人、情侣之间的宠物。玫瑰代表爱情，不同颜色、朵数的玫瑰还另有吉意。
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/1.jpg" class="feature-image img-responsive img-circle">
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="baihe">
+                <div class="row feature">
+                    <div class="col-md-5">
+                        <img src="images/2.jpg" class="feature-image img-responsive img-circle">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">百合<span class="text-muted">百合鲜花</span></h2>
+                        <p class="lead">
+                            百合花语是指百合具有百年好合美好家庭、伟大的爱之含意，有深深祝福的意义。收到这种花的祝福的人具有清纯的性格，集众人宠爱于一身，不过光凭这一点并不能平静度过一生，必须具备自制力，抵抗外界的诱惑，才能保持不被污染的纯真                    </p>
+                    </div>
+                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="kang">
+                <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">康乃馨<span class="text-muted">亲情鲜花</span></h2>
+                        <p class="lead">
+                            康乃馨花语：热情、魅力、使人柔弱的爱、真情、母亲我爱你、温馨的祝福、热爱着你、慈祥、不求代价的母爱、宽容、母亲之花、浓郁的亲情、亲情思念、清纯的爱慕之情、热恋、热心、伤心与懊悔、伟大、神圣，慰问、心灵的相通、真挚、走运、思念。
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/3.jpg" class="feature-image img-responsive img-circle">
+                    </div>
+                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="mantianxing">
+                <div class="row feature">
+                    <div class="col-md-5">
+                        <img src="images/4.jpg" class="feature-image img-responsive img-circle">
+                    </div>
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">满天星<span class="text-muted">满天星鲜花</span></h2>
+                        <p class="lead">
+                            满天星的花语是爱人的呼吸，所以，我爱上了TA，习惯了想念，习惯了担心，习惯了等待，唯独没有习惯看不到你，你的呼吸已经是我习惯了的节奏，愿为你披上白纱，每夜伴着安稳的气息睡去                  </p>
+                    </div>
+                </div>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="yujingxiang">
+                <div class="row feature">
+                    <div class="col-md-7">
+                        <h2 class="feature-heading">郁金香<span class="text-muted">郁金香鲜花</span></h2>
+                        <p class="lead">
+                            白色郁金香——纯洁的爱
+                            花语故事：在一片白色郁金香花海旁，她靠着他很近：“你说男女之间真的有纯洁的友谊吗？”他摸着她的头说：“在遇到你之后我才相信有。”几十年飞逝而过，有个小女孩又问他相同的问题，他说：“记着几十年前有个女孩问我男女之间有没有纯洁的友谊，我说有，可是直到她离开后，我才知道真的没有。”
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="images/1.jpg" class="feature-image img-responsive img-circle">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="divider">
+<div class="container">
+    <footer>
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+        <p>2014 鲜花网</p>
+    </footer>
+</div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="about">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">关于</h4>
+                </div>
+                <div class="modal-body">
+                    <p>中国鲜花礼品网为您介绍各种鲜花的花语及寓意：常见鲜切花的花语包括玫瑰花语，百合花语，康乃馨花语，郁金香花语，马蹄莲花语；另外还有永生花花语、薰衣草花语、满天星花语、勿忘我花语等热门鲜花的花语知识。</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">了解</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $("#toubu .dropdown-menu a").click(
+                function(){
+                   var href=$(this).attr("href");
+                   $("#tab-list a[href='" +href+ "']").tab("show");
+                }
+        )
+    })
+</script>
+</body>
+</html>

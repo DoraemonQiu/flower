@@ -1,0 +1,59 @@
+body{
+    padding-top: 104px;
+}
+header .navbar-default {
+    background-color: #ffffff;
+     border: none;
+}
+header .navbar-brand{
+    padding-left: 70px;
+}
+header .nav{
+    padding-left: 100px;
+}
+header .nav li a{
+    font-size: 15px;
+    color: black;
+    height: 80px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+header .nav li:hover{
+    background-color: #f2a6a8;
+  border-radius: 50%;
+    transform: scale(1.025);
+}
+header .nav li a:hover{
+    color: #7ab6f9;
+}
+header .form-group{
+    padding-right: 70px;
+    margin-top: 20px;
+}
+header .navbar-form input{
+    border: 1px solid #7ab6f9;
+    border-radius: 50px;
+}
+header .navbar-form p{
+    height: 28px;
+    width: 28px;
+    background-color: #7ab6f9;
+    border-radius: 50%;
+}
+header .navbar-form p{
+    text-align: center;
+    color: white;
+    line-height:28px;
+}
+header .navbar-form{
+    position: relative;
+}
+header .navbar-form p{
+    position: absolute;
+    top: 23px;
+    right: 85px;
+}
